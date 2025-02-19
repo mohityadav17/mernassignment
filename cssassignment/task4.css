@@ -1,0 +1,51 @@
+/* Reset default margin & padding */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Sidebar Styling */
+.sidenav {
+    height: 100%;
+    width: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f1f1f1;
+    padding-top: 20px;
+}
+
+/* Sidebar Buttons */
+.sidenav .btn {
+    display: block;
+    padding: 15px;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    width: 40px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+/* Button Colors */
+.blue { background-color: #007bff; }
+.green { background-color: #28a745; }
+.red { background-color: #dc3545; }
+.gray { background-color: #6c757d; }
+
+/* Hover Effect */
+.sidenav .btn:hover {
+    width: 120px;
+}
+
+/* Main Content */
+.content {
+    margin-left: 80px;
+    padding: 20px;
+    border: 2px solid black;
+    width: 80%;
+    height: 400px;
+    margin-top: 20px;
+}

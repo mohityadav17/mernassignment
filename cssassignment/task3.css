@@ -1,0 +1,26 @@
+/* Table Styling */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ddd;
+}
+
+/* Header Row Styling */
+thead {
+    background-color: green;
+    color: white;
+}
+
+/* Table Header and Data Cell Styling */
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Alternate Row Colors */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
